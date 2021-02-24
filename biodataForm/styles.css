@@ -1,0 +1,83 @@
+body {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #426696;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+.links {
+  display: flex;
+  justify-content: center;
+}
+.links > a {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #426696;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 20px;
+  text-decoration: none;
+}
+input,
+select,
+button {
+  margin: 10px;
+  padding: 4px 8px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+button:hover {
+  cursor: pointer;
+}
+fieldset {
+  margin: 20px;
+  margin-bottom: 5px;
+  border: 2px solid #426696;
+}
+h1 {
+  margin-left: 0;
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form > .submit-btn {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  font-size: 1rem;
+  background-color: #426696;
+  width: 50%;
+  padding: 7px 15px;
+}
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+label {
+  flex: 1;
+}
+input {
+  flex: 2;
+}
+select {
+  flex: 2;
+}
+.radio {
+  margin-right: 40px;
+}
+.radio > input {
+  margin-right: 0;
+}
+input[type="file"] {
+  color: #426696;
+}
